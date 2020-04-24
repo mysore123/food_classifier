@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Classify your Image!</title>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body style="background-image:url('static/food.jpg')">
+  <h1 style="font-size:70px;font-family: 'Slabo 27px', serif;color:white;margin-top:20px;width:40%;text-align:center;margin-bottom:50px;">Image Classifier <em style="color:#d8345f">and</em> Calorie Estimation</h1>
+<div style="position:absolute;left:20px;top:340px;text-align:center;color:white;padding:20px;">
+  <h2> Upload your image to be classified! </h2>
+  <h6>(Please upload images less than 500kb in size)</h6>
+  <form method=post enctype=multipart/form-data>
+     <p class="text-light">
+        <input type=file name=file>
+        <input type=submit value=Upload style="margin:20px;border-style:none;padding:10px;width:20%">
+     </p>
+  </form>
+</div>
+</body>
+</html>
